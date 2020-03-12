@@ -1,4 +1,4 @@
-const removeFromArray = function(...input , ...reject) {
+const removeFromArray = function(input , ...reject) {
     let value = new Array
     let display = ""
     
