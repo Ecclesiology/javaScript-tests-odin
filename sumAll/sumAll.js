@@ -1,7 +1,7 @@
 const sumAll = function(start, end) {
-    let sum;
-    for( let i = start; i < end; i++) {
-        return sum += ""
+    let sum = "";
+    for( i = start; i <= end; i++) {
+        sum += i
     };
     return sum
 }
