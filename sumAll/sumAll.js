@@ -4,7 +4,9 @@ const sumAll = function(start, end) {
         start = end + (end = start, 0)
     }
     
-    if ( start < 0 ) {
+    if (( start < 0 ) || ( end < 0)) {
+        return "ERROR";
+    } else if ((isNaN(start)) || (isNaN(end))) {
         return "ERROR";
     } 
     
