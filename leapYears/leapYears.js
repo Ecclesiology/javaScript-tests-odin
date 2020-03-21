@@ -4,6 +4,8 @@ const leapYears = function(year) {
     let isLeapYear = year % 100;
     if ((testLeapYear == 0) && (isLeapYear !== 0)) {
         return true;
+    } else if ( checkLeapYear == 0 ) {
+        return true;
     } else {
         return false;
     }
