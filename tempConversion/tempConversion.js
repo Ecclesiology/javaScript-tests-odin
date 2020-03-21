@@ -4,7 +4,8 @@ const ftoc = function(degreesFahrenheit) {
 }
 
 const ctof = function(degreesCelsius) {
-    
+    let conversion = ((( degreesCelsius * ( 9 / 5 )) + 32)).toFixed(1);
+    return Number(conversion);
 }
 
 module.exports = {
