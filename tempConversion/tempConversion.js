@@ -1,10 +1,10 @@
-const ftoc = function(degrees) {
-    let conversion = (( degrees - 32 ) * ( 5 / 9 )).toFixed(1);
+const ftoc = function(degreesFahrenheit) {
+    let conversion = (( degreesFahrenheit - 32 ) * ( 5 / 9 )).toFixed(1);
     return Number(conversion);
 }
 
-const ctof = function(temperature) {
-
+const ctof = function(degreesCelsius) {
+    
 }
 
 module.exports = {
