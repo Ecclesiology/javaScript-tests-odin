@@ -1,5 +1,6 @@
 const ftoc = function(degrees) {
-    return (( degrees - 32 ) * ( 5 / 9 ));
+    let conversion = (( degrees - 32 ) * ( 5 / 9 )).toFixed(1);
+    return Number(conversion);
 }
 
 const ctof = function(temperature) {
